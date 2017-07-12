@@ -116,7 +116,7 @@ AcfYoastSEOPlugin = function() {
 				fieldContent = '';
 
 				$fieldParent.find('.thumbnail > img').each(function() {
-					fieldContent += fieldContent.prop('outerHTML');
+					fieldContent += $(this).prop('outerHTML');
 				});
 
 				break;
